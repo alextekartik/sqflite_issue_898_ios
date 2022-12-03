@@ -42,8 +42,7 @@ dependencies:
       path: sqflite/example
 
 dependency_overrides:
-  # this project fails with this dependency, using 2.2.1+ fixes it
-  sqflite: 2.2.0+3
+  sqflite: '>=2.2.2-2'
 
 dev_dependencies:
   flutter_test:
