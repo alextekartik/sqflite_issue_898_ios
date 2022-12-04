@@ -12,7 +12,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     defaults:
       run:
-        working-directory: ./flutter_ios_ci_exp
+        working-directory: .
     strategy:
       fail-fast: false
       matrix:
